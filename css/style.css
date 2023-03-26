@@ -55,7 +55,6 @@ a.see-more{
   font-size: 18px;
   font-weight: bold;
   border-top: none;
-
 }
 header {
   display: flex;
@@ -319,6 +318,33 @@ nav {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+/* Activités */
+.activities{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+.activity-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 22%;
+  height: 439px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.activity-img{
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px ;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
