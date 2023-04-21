@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Booki</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"
-    />
+    >
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    >
+    <link rel="stylesheet" href="./css/style.css" >
     <script
       src="https://kit.fontawesome.com/33e73e9342.js"
       crossorigin="anonymous"
@@ -27,7 +27,7 @@
   <body>
     <header>
       <div class="logo-container">
-        <img src="images/logo/Booki.png" alt="logo" class="logo" />
+        <img src="images/logo/Booki.png" alt="logo" class="logo" >
       </div>
       <nav>
         <a href="#hebergements">Hébergements</a>
@@ -44,8 +44,8 @@
             <div class="location-icon">
               <i class="fa-solid fa-location-dot"></i>
             </div>
-            <form method="get" action="">
-              <input class="form-input" type="text" placeholder="Ville" />
+            <form method="get">
+              <input class="form-input" type="text" placeholder="Ville" >
             </form>
             <button class="search-button">
               <span class="text-btn">Rechercher</span>
@@ -56,22 +56,26 @@
           <div class="filters-container">
             <h5>Filtres</h5>
             <div class="button-container">
-              <button class="filter-btn">
-                <i class="fa-solid fa-money-bill-wave fa-xl"></i>
-                <h5>Économique</h5>
-              </button>
-              <button class="filter-btn">
-                <i class="fa-solid fa-person btn-icon fa-2xl"></i>
-                <h5>Familial</h5>
-              </button>
-              <button class="filter-btn">
-                <i class="fa-solid fa-heart btn-icon fa-xl"></i>
-                <h5>Romantique</h5>
-              </button>
-              <button onclick="" type="button" class="filter-btn">
-                <i class="fa-solid fa-fire btn-icon fa-xl"></i>
-                <h5>Nos pépites</h5>
-              </button>
+              <div class="filters">
+                <button class="filter-btn">
+                  <i class="fa-solid fa-money-bill-wave fa-xl"></i>
+                  Économique
+                </button>
+                <button class="filter-btn">
+                  <i class="fa-solid fa-person btn-icon fa-2xl"></i>
+                  Familial
+                </button>
+              </div>
+              <div class="filters">
+                <button class="filter-btn">
+                  <i class="fa-solid fa-heart btn-icon fa-xl"></i>
+                  Romantique
+                </button>
+                <button onclick="" type="button" class="filter-btn">
+                  <i class="fa-solid fa-fire btn-icon fa-xl"></i>
+                  Nos pépites
+                </button>
+              </div>
             </div>
           </div>
           <div class="information">
@@ -86,7 +90,7 @@
         <div class="hebergements-and-populaires">
           <section id="hebergements">
             <h3>Hébergements à Marseille</h3>
-            <div class="hebergment-cards">
+            <div class="hebergement-cards">
               <a href="#" class="hebergement-link">
                 <article class="vertical-card">
                   <img src="images/hebergements/fred-kleber.jpg" alt="Chambre de l'hôtel du port" class="vertical-img">
@@ -136,7 +140,7 @@
                 </article>
               </a>
             </div>
-            <div class="hebergment-cards">
+            <div class="hebergement-cards">
               <a href="#" class="hebergement-link">
                 <article class="vertical-card">
                   <img src="images/hebergements/annie-spratt.jpg" alt="Chambre de l'hôtel de la mer" class="vertical-img">
@@ -202,7 +206,7 @@
                   <img
                     src="./images/hebergements/emile-guillemot.jpg"
                     alt="Image de la chambre d'hôtel montrant un lit"
-                  />
+                  >
                   <div class="card-content">
                     <div class="card-txt">
                       <h6 class="card-title">Hôtel Le soleil du matin</h6>
@@ -226,7 +230,7 @@
                   <img
                     src="./images/hebergements/aw-creative.jpg"
                     alt="Image de la chambre d'hôtel montrant un lit"
-                  />
+                  >
                   <div class="card-content">
                     <div class="card-txt">
                       <h6 class="card-title">
@@ -255,7 +259,7 @@
                   <img
                     src="./images/hebergements/febrian-zakaria2.jpg"
                     alt="Image de la chambre d'hôtel montrant un lit"
-                  />
+                  >
                   <div class="card-content">
                     <div class="card-txt">
                       <h6 class="card-title">Hôtel Bleu et Blanc</h6>
@@ -330,21 +334,19 @@
       <footer>
         <article class="footer-article">
           <h4>A propos</h4>
-          <a href="#" class="footer">Fonctionnement du site</a>
-          <a href="#" class="footer">Conditions générales</a>
-          <a href="#" class="footer">Données et confidentialité</a>
+          <a href="#" class="footer-link">Fonctionnement du site</a>
+          <a href="#" class="footer-link">Conditions générales</a>
+          <a href="#" class="footer-link">Données et confidentialité</a>
         </article>        
         <article class="footer-article">
           <h4>Nos hébergements</h4>
-          <a href="#" class="footer">Charte qualité</a>
-          <a href="#" class="footer">Proposer votre hôtel</a>
-          <span></span>
+          <a href="#" class="footer-link">Charte qualité</a>
+          <a href="#" class="footer-link">Proposer votre hôtel</a>
         </article >
         <article class="footer-article">
           <h4 style="font-size: 18px">Assistance</h4>
           <a href="#" class="footer-link">Centre d'aide</a>
           <a href="#" class="footer-link">Nous contacter</a>
-          <a href="#" class="footer-link"">Données et confidentialité</a>
         </article>
       </footer>
     </div>
